@@ -1,150 +1,152 @@
-.clear {
-    clear: both;
-}
+
 .text-white {
     color: #fff !important;
 }
-
-/*Begin: About*/
+.text-white-opa {
+    color: #fff;
+    opacity: 0.6;
+}
+/* Combo The Band, Tour Dates, Contact */
 #content .content-section {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 16px;
+
 }
 #content .section-heading {
+    font-weight: 10;
+    color: black;
     font-size: 30px;
-    margin: 15px 0;
-    font-weight: 500;
     text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
     letter-spacing: 4px;
 }
-#content .section-sub-heading {
-    font-size: 15px;
-    margin: 10px 0;
-    text-align: center;
-    font-style: italic;
-    opacity: 0.6;
-}
 
-#content .about-text {
-    font-size: 15px;
+#content .section-sub-heading {
     margin: 15px 0;
-    text-align: justify;
-    line-height: 1.4;
-    
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.6;
+    font-style: italic;
+    letter-spacing: 4px;
 }
+/****/
+#content .about-text {
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+/*member-list*/
 #content .member-list {
     padding: 32px 0;
-    /*overflow: hidden;*/
+}
+#content .member-item {
+    float: right;
+    text-align: center;
+    width: 33.333%;
 }
 
 #content .member-name {
     font-size: 15px;
+    padding: 15px 0;
 }
 
-#content .member-img {
-    margin-top: 15px;
+.member-item .member-img {
     width: 154px;
+    height: 154px;
     border-radius: 4px;
     margin-bottom: 16px;
 }
-/*End: About*/
-
-
-/* Tour section - Tickets */ 
-.tour-section {
+/*****/
+/* Tour Dates*/
+#content .tour-section {
     background-color: #000;
-
 }
-.tickets-list {
+
+.tickets-list li{
+    padding: 8px 16px;
     background-color: #fff;
-    margin-top: 40px;
-}
-
-.tickets-list li {
     color: #757575;
     font-size: 15px;
-    list-style: none;
-    padding: 11px 16px;
-    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+    border-bottom: #ddd solid 1px;
 }
 
 .tickets-list .sold-out {
-    background-color: #f44336;
-    padding: 3px 4px;
     margin-left: 16px;
-    text-align: center;
-    font-size: 15px;
+    padding: 3px 8px;
+    background-color: #f44336;
     color: #fff;
-
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
-.tickets-list .quantity{
+.tickets-list .quatity {
     float: right;
-    width: 24px;
-    height: 22px;
+    margin: 0 16px 0 0;
+    padding: 2px 8px;
     color: #ffff;
     background-color: #000;
     border-radius: 50%;
     text-align: center;
-    line-height: 24px;
-    margin-top: -3px;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: -2px;
 }
 
-
-/* Tour section - Places */ 
-.place-list{
-    margin-top: 32px;
-    /* margin-left: -8px;
-    margin-right: -8px; */
-
+/* Place list */
+.content-section .place-list {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-.place-img{
-    width: 100%;
+.content-section .place-img {
+    width: 100%; 
     display: block;
 }
 
-.place-img:hover {
-    opacity: 0.6;
-}
-
-.place-body{
-    background-color: #fff;
-    padding: 0 16px 0 16px;
-    display: inline-block;
-
-}
-
-.place-heading{
-    margin: 15px 0;
-    font-weight: bold;
+.content-section .place-body {
     font-size: 15px;
-
-}
-
-.place-time{
-    margin: 15px 0;
-    opacity: 0.5;
-
-}
-
-.place-desc{
-    margin: 15px 0;
-
-}
-
-.place-buy-btn{
-    padding: 10px 14px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0 16px;
+    padding: 0 16px;
     display: inline-block;
 }
 
-.place-buy-btn:hover {
-    background-color: #ccc;
+.content-section .place-heading {
     color: #000;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.content-section .place-time {
+    opacity: 0.6;
+    font-size: 15px;
+    margin: 15px 0;
+
+}
+
+.content-section .place-desc {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #000;
+
+}
+
+.content-section .place-buybtn {
+    font-size: 15px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.content-section .place-buybtn:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
 }
