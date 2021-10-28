@@ -5,6 +5,7 @@
 }
 html{
     font-family: helvetica, arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -17,9 +18,8 @@ html{
     height: 46px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
-
-    
+    //overflow: hidden;
+  
 }
 
 #nav {
@@ -128,7 +128,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/Slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/Slider/slider1.jpg') top center / cover no-repeat;
 
 
 }
@@ -157,9 +157,14 @@ html{
     .text-description {
         font-size: 12px;
         margin-top: 25px;
+        text-shadow: 0 0 1px #000;
     }
 
 } 
+
+#conten .member-list {
+    margin-top:32px;
+}
 
 
 

@@ -51,7 +51,16 @@
 
 .contact-info {
     font-size: 18px;
-    line-height: 1.6px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #0f0fac;
+    opacity: 0.9; 
+}
+.contact-info a:hover{
+    opacity: 1;
+
 }
 
 .contact-info-icon i[class*="ti-"] {
@@ -63,18 +72,9 @@
     padding: 10px;
     border: #ccc solid 1px;
     width: 100%;
-    margin-bottom: 2px;
     outline:  border-box solid;
 }
 
 .contact-form {
     font-size: 15px;
-}
-
-.contact-form .form-submit-btn {
-    background-color: #000;
-    color: #fff;
-    border: 1px solid #000;
-    padding: 3px 6px;
-    float: right;
 }

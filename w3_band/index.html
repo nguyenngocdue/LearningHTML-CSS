@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/CSSandSASS/style_map.css">
     <link rel="stylesheet" href="./assets/CSSandSASS/style_footer.css">
     <link rel="stylesheet" href="./assets/CSSandSASS/responsive.css">
+    <link rel="stylesheet" href="./assets/CSSandSASS/prototype.css">
 </head>
 <body>
     <div id="main">
@@ -65,15 +66,15 @@
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="member-list">
-                    <div class="col col-third text-center">
+                    <div class="col s-col-full col-third text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/Band/member1.jpg" alt="" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col s-col-full col-third text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/Band/member1.jpg" alt="" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col s-col-full col-third text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/Band/member1.jpg" alt="" class="member-img">
                     </div>
@@ -97,33 +98,33 @@
 
                 <!--Places 01-->
                 <div class="row place-list">
-                    <div class="col col-third">
+                    <div class="col col-third s-col-full mt-16">
                         <img src="./assets/img/Place/place1.jpg" alt="New York" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">New York</h3>
                             <p class="place-time">Fri 27 Nov 2016</p>
                             <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="btn">Buy Tickets</a>
+                            <a href="#" class="btn s-full-width">Buy Tickets</a>
                         </div>
                     </div>
                 <!--Places 02-->
-                    <div class="col col-third">
+                    <div class="col col-third s-col-full mt-16">
                         <img src="./assets/img/Place/place2.jpg" alt="New York" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">New York</h3>
                             <p class="place-time">Fri 27 Nov 2016</p>
                             <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="btn">Buy Tickets</a>
+                            <a href="#" class="btn s-full-width">Buy Tickets</a>
                         </div>
                     </div>           
                 <!--Places 03-->
-                    <div class="col col-third">
+                    <div class="col col-third s-col-full mt-16">
                         <img src="./assets/img/Place/place3.jpg" alt="New York" class="place-img">
                         <div class="place-body">
                             <h3 class="place-heading">New York</h3>
                             <p class="place-time">Fri 27 Nov 2016</p>
                             <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <a href="#" class="btn">Buy Tickets</a>
+                            <a href="#" class="btn s-full-width">Buy Tickets</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -140,21 +141,21 @@
                    
                    <!--Begin: Address Informtion-->
                    <div class="row contact-content">
-                       <div class="col col-half contact-info-icon">
+                       <div class="s-col-full col col-half contact-info contact-info-icon">
                            <p><i class="ti-location-pin"></i>Chicago, US</p>
-                           <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                           <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                           <p><i class="ti-mobile"></i>Phone:<a href="tel:+00 151515"> +00 151515 </a></p>
+                           <p><i class="ti-email"></i>Email:<a href="mailto:mail@mail.com">mail@mail.com </a></p>
                        </div>
                    <!--End: AddressInformtion-->
            
                        <!--Begin: Form-->
-                       <div class="col col-half contact-form">
+                       <div class="s-col-full col col-half contact-form">
                            <form action="">
                                <div class="row mt-8">
-                                   <div class="col col-half">
+                                   <div class="col col-half s-col-full">
                                        <input type="text" name="" id="" placeholder="name" required class="form-control" >
                                    </div>                                    
-                                   <div class="col col-half">
+                                   <div class="col col-half s-col-full s-mt-8">
                                        <input type="email" name="" id="" placeholder="Email" required class="form-control" >
                                    </div>
                                </div>
@@ -164,7 +165,7 @@
                                        <input type="text" name="" id="" placeholder="Message" required class="form-control" >
                                    </div>
                                </div>
-                               <input class="btn mt-16 pull-right" type="submit" value="SEND">
+                               <input class="contact-submit-btn btn mt-16 pull-right s-full-width" type="submit" value="SEND">
                            </form>
                       </div>
                     </div>
