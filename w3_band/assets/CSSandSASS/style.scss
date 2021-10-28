@@ -17,6 +17,7 @@ html{
     height: 46px;
     background-color: #000;
     z-index: 1;
+    overflow: hidden;
 
     
 }
@@ -82,6 +83,32 @@ html{
     font-size: 16px;
 }
 
+
+#header .mobile-menu-btn.menu-icon  {
+    font-size: 20px;
+    color: #fff;
+}
+
+#header .mobile-menu-btn {
+    float: right;
+    padding: 0 21px;
+    line-height: 46px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    
+}
+
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
 #header .search-btn {
     float: right;
     &:hover {
@@ -95,6 +122,7 @@ html{
         font-size: 20px;
     }
 }
+
 
 #slider {
     position: relative;
